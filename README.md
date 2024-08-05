@@ -20,17 +20,19 @@ To build the project, you'll need Go installed on your system. Clone this reposi
    ```sh
    git clone https://github.com/yashasolutions/port_scanner.git
    cd port_scanner
-```
+   ```
 
 2. **Build the project**
-```
+```sh
 make build
 ```
 
 3. **Basic Usage**
+
 ```sh
 ./port_scanner -host=<HOST> -ports=<PORTS>
 ```
+
 - <HOST>: The host to scan (e.g., example.com or 192.168.1.1).
 - <PORTS>: A comma-separated list of ports to scan (e.g., 80,443,8080).
 
